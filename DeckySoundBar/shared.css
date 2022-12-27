@@ -1,0 +1,7 @@
+:root {
+    --dsb-bar-color: #1a9fff;
+}
+
+.gamepadslider_SliderTrack_Mq25N {
+    --left-track-color: var(--dsb-bar-color);
+}

@@ -1,0 +1,40 @@
+{
+    "name": "DeckySoundBar",
+    "author": "Nox (GoDev)",
+    "version": "v1.0",
+    "manifest_version": 4,
+    "target": "Other",
+    "description": "This Theme enable you to customize the SteamDeck Soundbar",
+    "patches": {
+        "Enable": {
+            "type": "none",
+            "values": {
+                "_": {
+                    "shared.css": ["SP"]
+                }
+            },
+            "components": [
+                {
+                    "name": "Soundbar Slider Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#1a9fff",
+                    "css_variable": "dsb-bar-color",
+                    "tabs": ["SP"]
+                }
+            ]
+        },
+        "Soundbar Corners": {
+            "type": "slider",
+            "default": "10px",
+            "values": {
+                "0px": { "corners/0px.css": ["SP"] },
+                "5px": { "corners/5px.css": ["SP"] },
+                "10px": { "corners/10px.css": ["SP"] },
+                "15px": { "corners/15px.css": ["SP"] },
+                "20px": { "corners/20px.css": ["SP"] },
+                "30px": { "corners/30px.css": ["SP"] }
+            }
+        }
+    }
+}
