@@ -12,3 +12,8 @@
 
 Decky Soundbar is used to customize the soundbar of the steamdeck.
 It can be used to round the corners and customize the color of the slider.
+
+### DeckyDownloadBar
+![DeckyDownloadBar](images/Download.jpg)
+
+Decky DownloadBar is used to fix the overflow of the download bar of the steamdeck.
