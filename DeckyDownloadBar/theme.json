@@ -1,19 +1,15 @@
 {
-    "name": "DeckyDownloadBar",
-    "author": "Nox (GoDev)",
-    "version": "v1.0",
-    "manifest_version": 4,
-    "target": "Other",
-    "description": "This theme fix the overflow of the download bar",
-    "patches": {
-        "Enable": {
-            "type": "none",
-            "values": {
-                "_": {
-                    "shared.css": ["SP"]
-                }
-            },
-            "components": []
-        }
-    }
+	"name": "DeckyDownloadBar",
+	"author": "Nox (GoDev)",
+	"target": "Other",
+	"version": "v1.0",
+	"description": "This theme fix the overflow of the download bar",
+	"manifest_version": 4,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
 }
