@@ -1,0 +1,7 @@
+:root {
+    --db-battery-color: #59bf40;
+}
+
+.header_BatteryIcon_1_6kL svg svg rect {
+    fill: var(--db-battery-color);
+}

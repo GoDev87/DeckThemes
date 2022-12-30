@@ -1,0 +1,28 @@
+{
+    "name": "DeckyBattery",
+    "author": "Nox (GoDev)",
+    "version": "v1.0",
+    "manifest_version": 4,
+    "target": "Other",
+    "description": "This Theme enable you to theme the battery color",
+    "patches": {
+        "Enable": {
+            "type": "none",
+            "values": {
+                "_": {
+                    "shared.css": ["SP"]
+                }
+            },
+            "components": [
+                {
+                    "name": "Battery Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#59bf40",
+                    "css_variable": "db-battery-color",
+                    "tabs": ["SP"]
+                }
+            ]
+        }
+    }
+}

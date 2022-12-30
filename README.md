@@ -22,3 +22,8 @@ Decky DownloadBar is used to fix the overflow of the download bar of the steamde
 ![DeckyBetterMarket](images/Market.jpg)
 
 Decky BetterMarket beautify decky market download cards
+
+### DeckyBattery
+![DeckyBattery](images/Battery.jpg)
+
+Decky Battery enable you to theme the battery color
