@@ -1,0 +1,15 @@
+{
+	"name": "DeckyBetterMarket",
+	"author": "Nox (GoDev)",
+	"target": "Other",
+	"version": "v1.0",
+	"description": "This theme beautify decky market download cards",
+	"manifest_version": 4,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
+}

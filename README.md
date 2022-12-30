@@ -17,3 +17,8 @@ It can be used to round the corners and customize the color of the slider.
 ![DeckyDownloadBar](images/Download.jpg)
 
 Decky DownloadBar is used to fix the overflow of the download bar of the steamdeck.
+
+### DeckyBetterMarket
+![DeckyBetterMarket](images/Market.jpg)
+
+Decky BetterMarket beautify decky market download cards

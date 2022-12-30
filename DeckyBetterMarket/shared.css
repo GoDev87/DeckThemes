@@ -1,0 +1,15 @@
+.deckyStoreCardBody {
+    margin-left: 10px;
+}
+
+.deckyStoreCardBody .deckyStoreCardImage {
+    border-radius: 5px;
+}
+
+.deckyStoreCardActions {
+    margin: 10px;
+}
+
+.deckyStoreCardInstallButtonContainer {
+    margin-right: 10px;
+}
