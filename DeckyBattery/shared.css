@@ -2,6 +2,7 @@
     --db-battery-color: #59bf40;
 }
 
-.header_BatteryIcon_1_6kL svg svg rect {
+.header_BatteryIcon_1_6kL svg svg rect,
+.quickaccesscontrols_BatteryIcon_39aNh svg svg rect {
     fill: var(--db-battery-color);
 }

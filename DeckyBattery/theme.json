@@ -1,7 +1,7 @@
 {
     "name": "DeckyBattery",
     "author": "Nox (GoDev)",
-    "version": "v1.0",
+    "version": "v1.1",
     "manifest_version": 4,
     "target": "Other",
     "description": "This Theme enable you to theme the battery color",
@@ -10,7 +10,7 @@
             "type": "none",
             "values": {
                 "_": {
-                    "shared.css": ["SP"]
+                    "shared.css": ["SP", "QuickAccess"]
                 }
             },
             "components": [
@@ -20,7 +20,7 @@
                     "on": "_",
                     "default": "#59bf40",
                     "css_variable": "db-battery-color",
-                    "tabs": ["SP"]
+                    "tabs": ["SP", "QuickAccess"]
                 }
             ]
         }
